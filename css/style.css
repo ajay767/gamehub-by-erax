@@ -1,0 +1,102 @@
+@media (max-width:650px) {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .parent {
+        width: 100%;
+        height: 63px;
+        background-color: black;
+        display: flex;
+    }
+
+    .logo {
+        display: flex;
+        text-align: center;
+        margin: 15px;
+        width: 132px;
+    }
+
+    .logo h4 {
+        padding-top: 2px;
+        font-size: 23px;
+        color: white;
+        height: 33px;
+    }
+
+    .logo span {
+        background-color: orange;
+        color: white;
+        margin-left: 2px;
+        text-align: center;
+        padding-top: 2px;
+        border-radius: 5px;
+        font-size: 25px;
+        width: 50px;
+        height: 31px;
+    }
+
+
+.search_box{
+    margin-left: auto;
+}
+
+    .search_box button {
+        border: none;
+        border-radius: 5px;
+        width: 55px;
+        height: 26px;
+        background-color: #f9750c;
+        color: white;
+        margin: 20px;
+        margin-left: auto;
+
+    }
+
+
+
+    .dice {
+        margin: auto;
+        width: 300px;
+        display: flex;
+    }
+
+    .dice h4 {
+        width: 108px;
+        margin: 15px auto;
+        padding-left: 14px;
+        font-size: 25px;
+    }
+
+    .dice img {
+
+        border: 2px solid red;
+        border-radius: 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin: 15px auto;
+        margin-left: 38px;
+    }
+
+    .player_1 {
+        width: 150px;
+        margin: 15px;
+    }
+
+    .player_2 {
+        width: 150px;
+        margin: 15px;
+    }
+
+    .result h3 {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        color: #109200;
+    }
+}
