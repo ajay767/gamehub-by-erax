@@ -6,7 +6,13 @@
         padding: 0px;
         font-family: 'Montserrat', sans-serif;
     }
-
+hr{
+    border: none;
+    border-bottom: 5px dotted red;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
     .parent {
         width: 100%;
         height: 63px;
@@ -41,9 +47,9 @@
     }
 
 
-.search_box{
-    margin-left: auto;
-}
+    .search_box {
+        margin-left: auto;
+    }
 
     .search_box button {
         border: none;
@@ -68,7 +74,7 @@
     .dice h4 {
         width: 108px;
         margin: 15px auto;
-        padding-left:15px;
+        padding-left: 15px;
         text-align: center;
         font-size: 25px;
     }
@@ -93,26 +99,70 @@
         width: 150px;
         margin: 15px;
     }
-    .reload{
+
+    .reload {
         text-align: center;
     }
-.reload button{
-    border: none;
-    border-radius: 5px;
-    width: 110px;
-    height: 50px;
-    background:linear-gradient(to right,red,orange);
-    color: white;
-    margin: 20px;
-    font-size: 19px;
-    cursor: pointer;
-    
-  
-}
+
+    .reload button {
+        border: none;
+        border-radius: 5px;
+        width: 110px;
+        height: 50px;
+        background: linear-gradient(to right, red, orange);
+        color: white;
+        margin: 20px;
+        font-size: 19px;
+        cursor: pointer;
+
+
+    }
+
     .result h3 {
         margin: auto;
         text-align: center;
         font-size: 30px;
         color: #109200;
     }
+
+ /* play music */
+ .play_music h3{
+     width: 125px;
+     font-size: 25px;
+     margin: 15px auto;
+     text-align: center;
+ }
+ .play_music p{
+     width: 65%;
+     margin: auto;
+     text-align: center;
+ }
+ h5{
+     width: 85%;
+     margin: 15px auto;
+     text-align: center;
+ }
+.tune{
+    width: 80px;
+    height: 43px;
+    border: none;
+    border-radius: 50px;
+    background:#42073be3;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    
+}
+.music_button{
+    margin: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+
 }
