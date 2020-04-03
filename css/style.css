@@ -68,7 +68,8 @@
     .dice h4 {
         width: 108px;
         margin: 15px auto;
-        padding-left: 14px;
+        padding-left:15px;
+        text-align: center;
         font-size: 25px;
     }
 
@@ -92,7 +93,22 @@
         width: 150px;
         margin: 15px;
     }
-
+    .reload{
+        text-align: center;
+    }
+.reload button{
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+    background:linear-gradient(to right,red,orange);
+    color: white;
+    margin: 20px;
+    font-size: 19px;
+    cursor: pointer;
+    
+  
+}
     .result h3 {
         margin: auto;
         text-align: center;
