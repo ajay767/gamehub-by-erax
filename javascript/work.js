@@ -1,3 +1,4 @@
+alert("This game is developed to shortout regular Family matters, Hope you will love it! BY AJU YADUVANSHI");
 var player1=prompt("Input first player name");
 var player2=prompt("Input second player name");
 document.querySelector(".player_1 h4").innerHTML=player1;
